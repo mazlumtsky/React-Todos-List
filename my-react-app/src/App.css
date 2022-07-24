@@ -1,0 +1,50 @@
+body {
+  display: grid;
+  place-items: center;
+}
+/*todoField*/
+
+.todoField__btn {
+  color: #fff;
+  background-color: #03c03c;
+  border: 0;
+  height: 36px;
+}
+.todoField__input {
+  width: 20rem;
+  height: 35px;
+  padding: 0 20px;
+  background-color: antiquewhite;
+  outline: 0;
+  border: 0;
+  border-bottom: 2px solid #03c03c;
+}
+/* todos*/
+.todos {
+  list-style-type: none;
+  padding: 0;
+  max-height: 50px;
+  overflow-y: auto;
+}
+
+.todos__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+}
+.todos__text {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.todos_text_done {
+  text-decoration: line-through;
+}
+.todos__buttons button {
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
